@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voicecraft"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required to query activities that can process text -->
+12    <queries>
+12-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:31:5-36:15
+13        <intent>
+13-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:32:9-35:18
+14            <action android:name="android.intent.action.PROCESS_TEXT" />
+14-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:33:13-72
+14-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:33:21-70
+15
+16            <data />
+16-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:34:13-21
+17        </intent>
+18    </queries>
+19
+20    <application
+20-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:5:5-28:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\Vaughn\.gradle\caches\transforms-3\caf291fc1e5f9957c2c7da41fb779e7e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:label="voicecraft" >
+22-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:6:9-35
+23        <activity
+23-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:8:9-21:20
+24            android:name="com.example.voicecraft.MainActivity"
+24-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:9:13-41
+25            android:exported="true" >
+25-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:10:13-36
+26            <intent-filter>
+26-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:12:13-15:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:13:17-68
+27-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:13:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:14:17-76
+29-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:14:27-74
+30            </intent-filter>
+31
+32            <!-- Other activity configurations -->
+33            <meta-data
+33-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:18:13-20:40
+34                android:name="android.hardware.camera"
+34-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:19:17-55
+35                android:value="back" />
+35-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:20:17-37
+36        </activity>
+37
+38        <!--
+39             Don't delete the meta-data below.
+40             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+41        -->
+42        <meta-data
+42-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:25:9-27:33
+43            android:name="flutterEmbedding"
+43-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:26:13-44
+44            android:value="2" />
+44-->C:\Users\Vaughn\projects\voicecraft_final\voicecraft\android\app\src\main\AndroidManifest.xml:27:13-30
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+48            android:authorities="com.example.voicecraft.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Vaughn\.gradle\caches\transforms-3\0581c43cacaa7340f4bb3c587e10be12\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaughn\.gradle\caches\transforms-3\3e620f6adf88e9d9c1370d1600c5b358\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaughn\.gradle\caches\transforms-3\3e620f6adf88e9d9c1370d1600c5b358\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Vaughn\.gradle\caches\transforms-3\3e620f6adf88e9d9c1370d1600c5b358\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
